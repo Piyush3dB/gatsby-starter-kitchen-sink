@@ -86,3 +86,56 @@ for i in range(10):
     time.sleep(0.5)
     print i
 ```
+
+
+## Mathematical Equations
+
+Inline math with special characters: $|\psi\rangle$, $\Omega'$, $\gamma^\*$.  Bayes formula is $p(x|y) = \frac{p(y|x)p(x)}{p(y)}$.
+
+Bigger equations:
+
+$$
+\begin{align}
+E(\mathbf{v}, \mathbf{h}) = -\sum_{i,j}w_{ij}v_i h_j - \sum_i b_i v_i - \sum_j c_j h_j
+\end{align}
+$$
+
+In multiline is:
+
+$$
+\begin{align}
+                p(v_i=1|\mathbf{h}) & = \sigma\left(\sum_j w_{ij}h_j + b_i\right) \\\\
+                p(h_j=1|\mathbf{v}) & = \sigma\left(\sum_i w_{ij}v_i + c_j\right)
+\end{align}
+$$
+
+
+And without numbering:
+$$
+  \begin{align\*}
+    |\psi_1\rangle &= a|0\rangle + b|1\rangle \\\\
+    |\psi_2\rangle &= c|0\rangle + d|1\rangle
+  \end{align\*}
+$$
+
+Miltiline alignment:
+$$
+\begin{equation} 
+\begin{split}
+A & = \frac{\pi r^2}{2} \\\\
+  & = \frac{1}{2} \pi r^2 \\\\
+  & = \frac{A}{B_{C}} \psi r^{\theta} \\\\
+\end{split}
+\end{equation}
+$$
+
+And matrices too:
+$$
+A_{m,n} = 
+ \begin{pmatrix}
+  a_{1,1} & a_{1,2} & \cdots & a_{1,n} \\\\
+  a_{2,1} & a_{2,2} & \cdots & a_{2,n} \\\\
+  \vdots  & \vdots  & \ddots & \vdots  \\\\
+  a_{m,1} & a_{m,2} & \cdots & a_{m,n} 
+ \end{pmatrix}
+$$
